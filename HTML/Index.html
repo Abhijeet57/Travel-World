@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<title>Travel World </title>
+    <link rel="stylesheet" href="../CSS/Main.css" type="text/css">
+		<link rel="stylesheet" href="../CSS/media.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Lobster|Playfair+Display|Righteous|Teko" rel="stylesheet">	</head>
+
+	<body>
+
+		<header>
+    <a href="Index.html"><img src="../Images/logo.jpg" alt="Logo" title="Logo"></a>
+		  <h1>Travel World</h1>
+		</header>
+
+		<div class="navbar" id="myTopnav">
+  		<a class="active" href="Index.html">Home</a>
+  		<div class="subnav">
+    		<button class="subnavbtn">Locations<i class="fa fa-caret-down"></i></button>
+    		<div class="subnav-content">
+      	<a href="Boston.html">Boston</a>
+      	<a href="Newyork.html">New York</a>
+    		</div>
+  		</div>
+  		<a href="Support.html">Support</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+
+		<!-- Here is our page's main content -->
+		<main>
+      <img src="../Images/trav1.jpg" alt="Travelling" title="Travel the world">
+		  <!-- It contains an article -->
+		  <article>
+			<h2>Wanderlust</h2>
+			<p><i>“The world is a book, and those who do not travel read only a page.”</i> Did you know that travelling can make your life better and happier in several ways? Travelling can teach you more than any university course. You learn about the culture of the country you visit. If you talk to locals, you will likely learn about their thinking, habits, traditions and history as well.</p>
+			<p><i>“Once a year, go someplace you’ve never been before.”</i> - Dalai Lama,
+Great words to live by, there’s something exciting about exploring a new place every year. It can be a new country, a new city, or an interesting spot near your hometown. This travel guide will take you through the beauty of two prominent cites of the United Nation. New York City, famous for the Times Square will leave you mesmerized while Boston: The city of Knowledge and History will give you the glimpse of American tradition and food.
+</p>
+
+			<div class="locations">
+				<a href="Boston.html">
+				<img src="../Images/bs1.jpg" alt="Boston" title="Locations near Boston" >
+				</a>
+				<div class="desc"> <b>Boston City</b> </div>
+			</div>
+			<div class="locations">
+				<a href="Newyork.html">
+				<img src="../Images/ny.jpg" alt="New York" title="Locations near Newyork" >
+				</a>
+				<div class="desc"><b> Newyork City</b> </div>
+			</div>
+			<!-- article content in here -->
+		  </article>
+		</main>
+
+		<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "navbar") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "navbar";
+		    }
+		}
+		</script>
+
+	</body>
+</html>

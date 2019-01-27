@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<title>Travel World </title>
+    <link rel="stylesheet" href="../CSS/Main.css" type="text/css">
+		<link rel="stylesheet" href="../CSS/media.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Lobster|Playfair+Display|Righteous|Teko" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<header>
+    <a href="Index.html"><img src="../Images/logo.jpg" alt="Logo" title="Logo"></a>
+		<h1>Travel World</h1>
+		</header>
+
+		<div class="navbar" id="myTopnav">
+  		<a href="Index.html">Home</a>
+  		<div class="subnav">
+    		<button class="subnavbtn">Locations<i class="fa fa-caret-down"></i></button>
+    		<div class="subnav-content">
+      	<a href="Boston.html">Boston</a>
+      	<a class="active" href="Newyork.html">New York</a>
+    		</div>
+  		</div>
+  		<a href="Support.html">Support</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+		</div>
+
+		<!-- Here is our page's main content -->
+		<main>
+      <!-- It contains an article -->
+			<article id="content1">
+			<h2>Statue of Liberty</h2>
+			<div id="video">
+			 <video width="500" controls>
+			  <source src="../Video/Statue Of Liberty.mp4" type="video/mp4" >
+			  Your browser does not support the video tag.
+			</video>
+		</div>
+
+			<p>The Statue of Liberty was France's gift to America. Built in 1886, it remains a famous world symbol of freedom and one of the greatest American icons.
+			It is one of the world's largest statues, standing just under 152 feet tall from the base to the torch, and weighing approximately 450,000 pounds.
+			You can see the statue from land, with particularly good views from Battery Park, on the southern tip of Manhattan. However, to truly appreciate the Statue of Liberty, it's best to take a short boat trip to Liberty Island and see it up close.
+			You can walk around the base, enter the pedestal, or, with advance reservations, go right up to the crown.<br><br>
+			On a tour to the Statue of Liberty, you have the option to stop at Ellis Island and explore the Immigration Museum. This fantastic museum is located in the historic immigration station complex, where thousands of immigrants were processed before entering the United States. Displays focus on the process, the experiences, and the stories of the people who came through here on their journey to the United States.
+			You can even search the on-site computer database to see a record of immigrants who came through here.<br><br> Tickets to go inside the statue sell out. Pre-purchasing tickets is a must during the high season and a good idea at any time of year.
+			The Statue of Liberty and Ellis Island Guided Tour is a three-hour trip that takes you to both the Statue of Liberty and Ellis Island. Note: Buying tickets at the ferry can be tricky, with hawkers claiming to be "official representatives" trying to sell you more expensive tickets before you can find the ticket booth.</p>
+			<!-- article content in here -->
+		</article>
+
+		 </main>
+		 <script>
+		 function myFunction() {
+		 		var x = document.getElementById("myTopnav");
+		 		if (x.className === "navbar") {
+		 				x.className += " responsive";
+		 		} else {
+		 				x.className = "navbar";
+		 		}
+		 }
+		 </script>
+
+	</body>
+</html>

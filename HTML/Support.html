@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<title>Travel World </title>
+    <link rel="stylesheet" href="../CSS/Main.css" type="text/css">
+		<link rel="stylesheet" href="../CSS/media.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Lobster|Playfair+Display|Righteous|Teko" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<header>
+      <a href="Index.html"><img src="../Images/logo.jpg" alt="Logo" title="Logo"></a>
+			<h1>Travel World</h1>
+		</header>
+
+		<div class="navbar" id="myTopnav">
+  		<a href="Index.html">Home</a>
+  		<div class="subnav">
+    		<button class="subnavbtn">Locations<i class="fa fa-caret-down"></i></button>
+    		<div class="subnav-content">
+      	<a href="Boston.html">Boston</a>
+      	<a href="Newyork.html">New York</a>
+    		</div>
+  		</div>
+  		<a class="active" href="Support.html">Support</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+		</div>
+
+		<!-- Here is our page's main content -->
+		<main>
+      <!-- It contains an article -->
+			<article id="content2">
+				<table>
+					<col span="1" style="background-color:silver">
+					<thead>
+						<tr>
+							<th> ID</th>
+							<th> Title</th>
+							<th> Information</th>
+						</tr>
+					</thead>
+
+					<tbody>
+							<tr>
+							<td>1</td>
+							<td> Head Office</td>
+							<td>Boston, MA</td>
+							</tr>
+							<tr>
+							<td>2</td>
+							<td>Contact No.</td>
+							<td>(617)-304-3044</td>
+							</tr>
+							<tr>
+							<td>3</td>
+							<td>Email_Id</td>
+							<td><a href="../Index.html">www.TravelWorld.com</a></td>
+							</tr>
+							<tr>
+							<td>4</td>
+							<td>Customer Support</td>
+							<td>(617)-617-6177</td>
+							</tr>
+							<tr>
+							<td>5</td>
+							<td>Hours Of Operation</td>
+							<td>M - F :: 9 to 5pm</td>
+							</tr>
+					</tbody>
+				</table>
+			</article>
+		 </main>
+		 <script>
+ 		function myFunction() {
+ 		    var x = document.getElementById("myTopnav");
+ 		    if (x.className === "navbar") {
+ 		        x.className += " responsive";
+ 		    } else {
+ 		        x.className = "navbar";
+ 		    }
+ 		}
+ 		</script>
+	</body>
+</html>
