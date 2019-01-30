@@ -6,5 +6,5 @@ Travel-World
 * It is an interactive static and bootstrapped website which provides information such as a distance of the destination from user’s current location, the best time to visit the place, special food or nearby famous food place, specific spot where a user will get the best view, etc.
 
 ## Info:
-Languages Used: HTML5, CSS3
-Tool Used: Atom
+1. Languages Used: HTML5, CSS3
+2. Tool Used: Atom
